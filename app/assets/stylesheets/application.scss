@@ -10,3 +10,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/show";
+
+
+.footer {
+  height:100px;
+  width: 100vw;
+  background-color: rgb(85, 85, 85);
+  position: fixed;
+}
