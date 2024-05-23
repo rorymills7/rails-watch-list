@@ -27,6 +27,15 @@
   grid-gap: 24px;
 }
 
+#create-list {
+  color: white ;
+  &:hover {
+    color: black;
+    transition-duration: 500ms;
+  }
+
+}
+
 .card-category {
   height: 300px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
@@ -38,6 +47,7 @@
     }
   }
 }
+
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {

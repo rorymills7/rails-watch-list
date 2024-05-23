@@ -11,7 +11,7 @@
 
 <div class="cards mb-5">
   <% @lists.each do |list| %>
-  <div class="card-category d-flex align-items-center justify-content-center fw-bold fs-4 rounded-4" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)" >
+  <div class="card-category d-flex align-items-center justify-content-center fw-bold fs-4 rounded-4" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%=list.post_url%>)" id="card-poster" >
       <p><%=link_to list.name, list_path(list)  %></p>
   </div>
   <% end  %>

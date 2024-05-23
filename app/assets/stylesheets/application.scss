@@ -13,9 +13,14 @@
 @import "pages/show";
 
 
+
 .footer {
   height:100px;
   width: 100vw;
   background-color: rgb(85, 85, 85);
   position: fixed;
+}
+.new-list {
+  background-position: center;
+  background-size: cover;
 }
